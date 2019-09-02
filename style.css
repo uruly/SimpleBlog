@@ -10,8 +10,8 @@ html {
 }
 
 body {
-    width: 90%;
-    margin: 0 auto;
+    width: 93%;
+    margin: 0 2% 0 5%;
     font-family: "Mplus 1p",sans-serif;
     font-size: 1.4rem;
 	color: #3c444d;
@@ -110,6 +110,9 @@ article h2:hover {
     .sidebar {
         flex: 0 0 250px;
     }
+    .right-sidebar {
+        flex: 0 0 300px;
+    }
     .main-wrap {
         flex: 1 1 auto;
 		max-width: 650px;
@@ -175,7 +178,7 @@ article h2:hover {
         text-align: right;
         width: 250px; 
     }
-    .sidebar h1{
+    .sidebar h1 {
         padding-right: 80px;
         line-height: 1.4rem;
     }
@@ -183,6 +186,17 @@ article h2:hover {
         padding-right: 80px;
     }
 }
+
+/** Right Sidebar **/
+
+@media only screen and (min-width:768px) {
+    
+    .right-sidebar-content {
+        width: 280px; 
+        margin-left: 20px;
+    }
+}
+
 
 /* *
 ** フッター

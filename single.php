@@ -10,6 +10,8 @@
         </div><!-- end single-wrap -->
     </div><!-- end .main-wrap -->
 
+    <?php get_template_part('right-sidebar'); ?>
+
 </div><!-- end .flex-wrap -->
 
 <?php get_footer(); ?>

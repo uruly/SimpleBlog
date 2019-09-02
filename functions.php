@@ -7,8 +7,7 @@ function my_stylesheet(){
     $date = date('YmdGis');
     $date = '?date=' . $date;
     wp_enqueue_style('normalize',get_template_directory_uri().'/normalize.css',array());
-    wp_enqueue_style('style'.$date,get_stylesheet_uri(),
-    array('normalize'));
+    wp_enqueue_style('style'.$date,get_stylesheet_uri(), array('normalize'));
 }
 add_action('wp_enqueue_scripts','my_stylesheet');
 
